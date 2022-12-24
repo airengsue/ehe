@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-size: 30px;
+	font-family: 'Klee One';
+}
+a{
+	text-decoration: none;
+}
+.container{
+	background-image: url(./img/ocean.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.container{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: gray;
+	text-align: center;
+	z-index: 1;
+}
+.container::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;	
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: .5;
+	z-index: -1;
+}
+.babe h2{
+	display: block;
+	width: fit-content;
+	font-size: 200%;
+	position: relative;
+	color: white;
+	text-align: center;
+}
+.babe .cta1{
+	display: inline-block;
+	padding: 3px 20px;
+	color: #ffc2d1;
+	background-color: transparent;
+	border: 1px solid;
+	border-radius: 20px;
+	font-size: 80%;
+	margin-top: 30px;
+	transition: .3s ease;
+	transition-property: background-color, color;
+}
+.babe .cta2{
+	display: inline-block;
+	padding: 3px 20px;
+	color: #ffc2d1;
+	background-color: transparent;
+	border: 1px solid;
+	border-radius: 20px;
+	font-size: 80%;
+	margin-top: 30px;
+	transition: .3s ease;
+	transition-property: background-color, color;
+}
+.babe .cta1:hover{
+	color: black;
+	background-color: transparent;
+}
+.babe .cta2:hover{
+	color: black;
+	background-color: transparent;
+}

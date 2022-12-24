@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+body{
+	padding: 0;
+	margin: 0;
+	background: #000;
+}
+p{
+	font-size: 8px;
+	line-height: 8px;
+	text-align: justify;
+	-webkit-background-size:cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background: url(./img/us.jpg) no-repeat center/cover;
+	background-attachment: fixed;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: rgb(225,225,225,0);
+}
